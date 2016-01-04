@@ -1,0 +1,34 @@
+# OS files #
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+.idea/
+.Trash/
+
+# Python Django #
+*.pyc
+*.pyo
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+
+# SOC ignore files #
+soc/local_settings.py
+soc/media/download
+logs/*.log
+
+# code coverage
+.coverage
+coverage_report/
+htmlcov/
+
+＃ virtualenv
+venv/
